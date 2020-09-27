@@ -74,14 +74,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Library Include="Lucero.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\source\usb2iic.h" />
     <ClInclude Include="..\..\source\usb_device.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\source\USB2IICTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Lucero.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
