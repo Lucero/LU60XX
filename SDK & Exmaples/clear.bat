@@ -25,4 +25,8 @@ set rfile=*.sdf
 echo remove all "%rfile%"
 del .\%rfile% /f /s /q /a
 
+set rfile=*.suo
+echo remove all "%rfile%"
+del .\%rfile% /f /s /q /a
+
 
