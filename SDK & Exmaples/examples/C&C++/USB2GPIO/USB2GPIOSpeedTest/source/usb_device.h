@@ -1,4 +1,3 @@
-
 #ifndef __USB_DEVICE_H_
 #define __USB_DEVICE_H_
 
