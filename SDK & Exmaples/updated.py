@@ -16,11 +16,11 @@ def replace_files(source_files, replace_files):
 
     try:
         for sp in source_path:
-            print("*** ", sp)
+            print("\n*** ", sp)
             for rp in replace_path:
                 a, b = os.path.split(sp)
                 c, d = os.path.split(rp)
-                if b == d:
+                if b.upper() == d.upper():
                     print("--> ",rp)
                     copyfile(sp, rp)
     except IOError as e:
